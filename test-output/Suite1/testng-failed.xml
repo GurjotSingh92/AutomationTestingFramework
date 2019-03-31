@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="beam_Amazon_Auto.utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="beam_Amazon_Auto.tests.AddToCartTest">
+        <methods>
+          <include name="addtheItemTocart"/>
+          <include name="afterSuite"/>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="driverSetup"/>
+          <include name="changeItemQuanitiy"/>
+        </methods>
+      </class> <!-- beam_Amazon_Auto.tests.AddToCartTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

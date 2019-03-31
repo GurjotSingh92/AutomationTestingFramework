@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Execution Suite]">
+  <test thread-count="5" name="-- automationtest selected Tests --(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="beam_Amazon_Auto.tests.HomeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="searchAndVerifyList"/>
+        </methods>
+      </class> <!-- beam_Amazon_Auto.tests.HomeTest -->
+      <class name="beam_Amazon_Auto.tests.AddToCartTest">
+        <methods>
+          <include name="addtheItemTocart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- beam_Amazon_Auto.tests.AddToCartTest -->
+    </classes>
+  </test> <!-- - automationtest selected Tests -(failed) -->
+</suite> <!-- Failed suite [Execution Suite] -->
