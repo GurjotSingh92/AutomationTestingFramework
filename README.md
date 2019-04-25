@@ -51,11 +51,12 @@ Step 3: Load all the dependencies
 3. Right click on pom.xml > Run As > Maven Install
 
 Step 4 : Execute the framework
-Method 1 (Via Eclipse):
+
+1. Method 1 (Via Eclipse):
 Under ‘suits’ folder > there will be suit.xml file
 Right click on suit.xml > Run As > TestNG Suite
 
-Method 2 (Via Maven Commandline):
+2. Method 2 (Via Maven Commandline):
 Navigate to the framework via command line. 
 Execute command : mvn clean test
 
