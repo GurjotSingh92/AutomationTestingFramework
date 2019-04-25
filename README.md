@@ -2,19 +2,20 @@
 Automation test framework
 
 Overview
-This is a test automation framework designed. The approach used in the framework is Page-Object-Model combined with test driven approach using TestNG.The language used in this framework is Java. The framework is built with Selenium and Java. However, I have also provided Appium handling as well, if needed in future. Each test is independent and meaningful exception handling is done for each individual test case level. 
+This is a test automation framework designed for auto. The approach used in the framework is Page-Object-Model combined with test driven approach using TestNG.The language used in this framework is Java. The framework is built with Selenium and Java. However, I have also provided Appium handling as well, if needed in future. Each test is independent and meaningful exception handling is done for each individual test case level. 
 
 Framework Features:
-All the tests are independent
-Design pattern is type of Singleton pattern, which means single driver instance is maintained all across the framework. 
-Cart gets cleared before executing any set of test cases
-Reusable “setup” script that runs before each test suite.
-Re-runnable an infinite number of times.
-Maven is used as a dependency manager and all the dependencies are kept in pom.xml file
-Test suite also contains a reusable “teardown” script that restores the web shop cart to its original state.
-Extent Reports are provided for reporting. Screenshots are inbuilt in report itself
-Utilities along with customized wrappers are also provided for re-usability purpose and are framework independent. 
-pom.xml : build and versions maintenance, defining surefire plugin, source, resource directory etc, defining suit xml to run
+1. All the tests are independent
+2. Framework is capable of all types of platforms - Mobile,Web and API
+3. Design pattern is type of Singleton pattern, which means single driver instance is maintained all across the framework. 
+4. Cart gets cleared before executing any set of test cases
+5. Reusable “setup” script that runs before each test suite.
+6. Re-runnable an infinite number of times.
+7. Maven is used as a dependency manager and all the dependencies are kept in pom.xml file
+8. Test suite also contains a reusable “teardown” script that restores the web shop cart to its original state.
+9. Extent Reports are provided for reporting. Screenshots are inbuilt in report itself
+10. Utilities along with customized wrappers are also provided for re-usability purpose and are framework independent. 
+11. pom.xml : build and versions maintenance, defining surefire plugin, source, resource directory etc, defining suit xml to run
 
 List of Dependencies
 
