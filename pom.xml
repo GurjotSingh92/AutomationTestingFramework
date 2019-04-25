@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>beam_Amazon_Auto</groupId>
-	<artifactId>beamAutoFramework</artifactId>
+	<groupId>amazonAutoTestingFramework</groupId>
+	<artifactId>amazonAutoTestingWork</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>beamAutoFramework</name>
+	<name>amazonAutoTestingWork</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -42,7 +42,12 @@
 			<artifactId>selenium-server</artifactId>
 			<version>3.14.0</version>
 		</dependency>
-
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.3</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-api</artifactId>

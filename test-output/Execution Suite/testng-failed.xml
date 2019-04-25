@@ -8,18 +8,18 @@
       </run>
     </groups>
     <classes>
-      <class name="beam_Amazon_Auto.tests.HomeTest">
+      <class name="HomeTest">
         <methods>
           <include name="setup"/>
           <include name="searchAndVerifyList"/>
         </methods>
-      </class> <!-- beam_Amazon_Auto.tests.HomeTest -->
-      <class name="beam_Amazon_Auto.tests.AddToCartTest">
+      </class> <!-- HomeTest -->
+      <class name="AddToCartTest">
         <methods>
           <include name="addtheItemTocart"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- beam_Amazon_Auto.tests.AddToCartTest -->
+      </class> <!-- AddToCartTest -->
     </classes>
   </test> <!-- - automationtest selected Tests -(failed) -->
 </suite> <!-- Failed suite [Execution Suite] -->
